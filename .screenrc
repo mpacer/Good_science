@@ -1,0 +1,10 @@
+hardstatus on
+hardstatus alwayslastline
+startup_message off
+
+hardstatus string '%{= kG}[ %{G}%H %{g}][ %{= kw}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %Y-%m-%d %{W}%c %{g}]'
+screen -t vim
+screen -t sh
+screen -t jov
+screen -t sparsenet
+screen -t music
